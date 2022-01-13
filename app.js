@@ -41,9 +41,9 @@ function atribuirdados(data) {
     estado.value = data.uf;
 };
 
-const LimparDados = document.querySelector("#botaoLimpar");
+const limparDados = document.querySelector("#botaoLimpar");
 
-LimparDados.addEventListener("click", () => {
+limparDados.addEventListener("click", () => {
     const cep = document.querySelector("#cep");
 
     cep.value = "";
