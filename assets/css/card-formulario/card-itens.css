@@ -1,0 +1,6 @@
+.card__itens{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    line-height:2.0rem; 
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Cep válido</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/card-botoes/card-botoes.css">
+    <link rel="stylesheet" href="assets/css/card-botoes/botoes.css">
+    <link rel="stylesheet" href="assets/css/card-formulario/card-formulario.css">
+    <link rel="stylesheet" href="assets/css/card-formulario/card-itens.css">
+    <link rel="stylesheet" href="assets/css/card-formulario/card-input.css">
+    <link rel="stylesheet" href="assets/css/card-titulo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+        <section class="card">
+            <h1 class="card__titulo">Teste de CEP</h1>
+
+            <form class="card__formulario">
+
+                <div class="card__itens">
+                    <label>CEP</label>
+                    <input type="text" id="cep" pattern="\d{5}-?\d{3}" class="card__input"
+                        placeholder="Digite o seu CEP" required>
+                </div>
+                <div class="card__itens">
+                    <label>Rua</label>
+                    <input type="text" class="card__input" id="rua" placeholder="...">
+                </div>
+                <div class="card__itens">
+                    <label>Complemento</label>
+                    <input type="text" class="card__input" id="complemento" placeholder="...">
+                </div>
+                <div class="card__itens">
+                    <label>Bairro</label>
+                    <input type="text" class="card__input" id="bairro" placeholder="...">
+                </div>
+                <div class="card__itens">
+                    <label>Cidade</label>
+                    <input type="text" class="card__input" id="cidade" placeholder="...">
+                </div>
+                <div class="card__itens">
+                    <label>Estado</label>
+                    <input type="text" class="card__input" id="estado" placeholder="...">
+                </div>
+
+            </form>
+            <div class="botoes">
+                <button type="submit" id="botaoPesquisar" class="card__botoes">Pesquisar</button>
+                <button type="button" id="botaoLimpar" class="card__botoes  botao--limpar">Limpar</button>
+            </div>
+          
+        </section>
+
+
+
+    </main>
+
+</body>
+
+<script src="app.js"></script>
+
+
+</html>

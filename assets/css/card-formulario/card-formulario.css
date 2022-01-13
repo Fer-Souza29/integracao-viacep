@@ -1,0 +1,14 @@
+.card__formulario {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 90%;
+  padding-bottom:1.5rem;
+}
+
+@media (min-width:480px) {
+ .card__formulario{
+   width: 80%;
+ }
+  
+}
