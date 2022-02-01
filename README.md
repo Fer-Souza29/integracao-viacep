@@ -1,6 +1,8 @@
 # integracao-viacep
 A simple mobile-friendly page to test the ViaCEP API integration "https://viacep.com.br/" to be used in other projects.
 
+![testeviacep](https://user-images.githubusercontent.com/97694277/151893848-8a15ce65-b891-491c-8262-d4496af6dd68.gif)
+
 The objective of this simple project was to test the integration of the ViaCEP API, 
 the user can enter a Brazilian zip code in the formats ( xxxxx xxx or xxxxx-xxx),
 and by clicking on "Pesquisar", the data will be requested from the API and inserted into the inputs.
@@ -11,4 +13,5 @@ the data is validated and inserted into the inputs through the "atribuirdados fu
 The "limparDados" function simply adds empty values to the inputs in order to perform a new search.
 
 The regex pattern="\d{5}-?\d{3}"
+
 the ViaCEP API URL `https://viacep.com.br/ws/${valorCep}/json/`;
